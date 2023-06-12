@@ -1,0 +1,129 @@
+body {
+    background-color: #201f15;
+
+
+}
+
+/* CSS Styles for Player Cards */
+.player-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    transition: transform 0.3s ease;
+
+}
+
+.player-card:hover {
+    transform: translateY(-5px);
+}
+
+.player-card h3 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.player-card p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.player-card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+    transition: opacity 0.3s ease;
+}
+
+.player-card:hover img {
+    opacity: 0.8;
+}
+
+.player-card .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.player-card .details-button,
+.player-card .remove-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.player-card .details-button {
+    background-color: #07d9e0;
+    color: #fff;
+}
+
+.player-card .details-button:hover {
+    background-color: #242624;
+}
+
+.player-card .remove-button {
+    background-color: #d84709;
+    color: #fff;
+}
+
+.player-card .remove-button:hover {
+    background-color: #242624;
+}
+
+/* CSS Styles for New Player Form */
+#new-player-form {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    margin-bottom: 20px;
+}
+
+#new-player-form h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#new-player-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#new-player-form input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#new-player-form button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff7f50;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+#new-player-form button:hover {
+    background-color: #ff6348;
+}
